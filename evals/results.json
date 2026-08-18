@@ -1,0 +1,903 @@
+{
+  "generated_at": "2026-08-18T12:53:30.738712+00:00",
+  "mode": "static-only",
+  "dataset_version": "2.0",
+  "skillguard": {
+    "metrics": {
+      "sample_count": 48,
+      "decision_accuracy": 0.9791666666666666,
+      "high_risk_recall": 0.9444444444444444,
+      "false_positive_rate": 0.0,
+      "finding_precision": 1.0,
+      "structured_output_pass_rate": null
+    },
+    "split_metrics": {
+      "challenge": {
+        "sample_count": 12,
+        "decision_accuracy": 0.9166666666666666,
+        "high_risk_recall": 0.8,
+        "false_positive_rate": 0.0,
+        "finding_precision": 1.0,
+        "structured_output_pass_rate": null
+      },
+      "development": {
+        "sample_count": 36,
+        "decision_accuracy": 1.0,
+        "high_risk_recall": 1.0,
+        "false_positive_rate": 0.0,
+        "finding_precision": 1.0,
+        "structured_output_pass_rate": null
+      }
+    },
+    "records": [
+      {
+        "id": "case_001",
+        "skill_path": "inline:case_001",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_002",
+        "skill_path": "inline:case_002",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_003",
+        "skill_path": "inline:case_003",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_004",
+        "skill_path": "inline:case_004",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_005",
+        "skill_path": "inline:case_005",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_006",
+        "skill_path": "inline:case_006",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_007",
+        "skill_path": "inline:case_007",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_008",
+        "skill_path": "inline:case_008",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_009",
+        "skill_path": "inline:case_009",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_010",
+        "skill_path": "inline:case_010",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_011",
+        "skill_path": "inline:case_011",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_012",
+        "skill_path": "inline:case_012",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_013",
+        "skill_path": "inline:case_013",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_014",
+        "skill_path": "inline:case_014",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_015",
+        "skill_path": "inline:case_015",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_016",
+        "skill_path": "inline:case_016",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_017",
+        "skill_path": "inline:case_017",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_018",
+        "skill_path": "inline:case_018",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_019",
+        "skill_path": "inline:case_019",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_020",
+        "skill_path": "inline:case_020",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "ENGINEERING_QUALITY_RISK"
+        ],
+        "predicted_risks": [
+          "ENGINEERING_QUALITY_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_021",
+        "skill_path": "inline:case_021",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_022",
+        "skill_path": "inline:case_022",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_023",
+        "skill_path": "inline:case_023",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_024",
+        "skill_path": "inline:case_024",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_025",
+        "skill_path": "inline:case_025",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_high_risks": [
+          "SECRET_RISK"
+        ],
+        "risk_score": 49,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_026",
+        "skill_path": "inline:case_026",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_high_risks": [
+          "SECRET_RISK"
+        ],
+        "risk_score": 49,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_027",
+        "skill_path": "inline:case_027",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_high_risks": [
+          "SECRET_RISK"
+        ],
+        "risk_score": 49,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_028",
+        "skill_path": "inline:case_028",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_029",
+        "skill_path": "inline:case_029",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_030",
+        "skill_path": "inline:case_030",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_high_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_031",
+        "skill_path": "inline:case_031",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_high_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_032",
+        "skill_path": "inline:case_032",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SEMANTIC_RISK",
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK",
+          "SEMANTIC_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK",
+          "SEMANTIC_RISK"
+        ],
+        "risk_score": 96,
+        "finding_count": 2,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_033",
+        "skill_path": "inline:case_033",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_034",
+        "skill_path": "inline:case_034",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_high_risks": [
+          "SECRET_RISK"
+        ],
+        "risk_score": 49,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_035",
+        "skill_path": "inline:case_035",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_high_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_036",
+        "skill_path": "inline:case_036",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "development",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_037",
+        "skill_path": "inline:case_037",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_038",
+        "skill_path": "inline:case_038",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_039",
+        "skill_path": "inline:case_039",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [],
+        "predicted_risks": [],
+        "predicted_high_risks": [],
+        "risk_score": 0,
+        "finding_count": 0,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_040",
+        "skill_path": "inline:case_040",
+        "expected_decision": "ALLOW",
+        "predicted_decision": "ALLOW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_041",
+        "skill_path": "inline:case_041",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_risks": [
+          "TRIGGER_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_042",
+        "skill_path": "inline:case_042",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_043",
+        "skill_path": "inline:case_043",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_044",
+        "skill_path": "inline:case_044",
+        "expected_decision": "REVIEW",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "ENGINEERING_QUALITY_RISK"
+        ],
+        "predicted_risks": [
+          "ENGINEERING_QUALITY_RISK"
+        ],
+        "predicted_high_risks": [],
+        "risk_score": 14,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_045",
+        "skill_path": "inline:case_045",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_risks": [
+          "SECRET_RISK"
+        ],
+        "predicted_high_risks": [
+          "SECRET_RISK"
+        ],
+        "risk_score": 49,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_046",
+        "skill_path": "inline:case_046",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "predicted_high_risks": [
+          "SEMANTIC_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_047",
+        "skill_path": "inline:case_047",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "BLOCK",
+        "expected_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 48,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      },
+      {
+        "id": "case_048",
+        "skill_path": "inline:case_048",
+        "expected_decision": "BLOCK",
+        "predicted_decision": "REVIEW",
+        "expected_risks": [
+          "SEMANTIC_RISK",
+          "PERMISSION_RISK"
+        ],
+        "predicted_risks": [
+          "PERMISSION_RISK"
+        ],
+        "predicted_high_risks": [
+          "PERMISSION_RISK"
+        ],
+        "risk_score": 29,
+        "finding_count": 1,
+        "split": "challenge",
+        "structured_audit_attempted": false,
+        "structured_audit_succeeded": false
+      }
+    ]
+  },
+  "vanilla_llm_baseline": null,
+  "baseline_note": "Not requested; no baseline data was fabricated."
+}

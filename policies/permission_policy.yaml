@@ -1,0 +1,18 @@
+version: "1"
+block:
+  severities: [CRITICAL]
+  conditions:
+    - prompt_injection
+    - silent_exfiltration
+    - silent_sensitive_action
+    - unconfirmed_file_deletion
+    - malicious_shell
+review:
+  severities: [HIGH]
+  medium_count: 2
+  categories:
+    - TRIGGER_RISK
+    - ENGINEERING_QUALITY_RISK
+allow:
+  max_medium: 1
+

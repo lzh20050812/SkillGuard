@@ -1,0 +1,16 @@
+version: "1"
+score_weights:
+  LOW: 5
+  MEDIUM: 15
+  HIGH: 30
+  CRITICAL: 50
+score_category_caps:
+  SEMANTIC_RISK: 60
+  PERMISSION_RISK: 60
+  SECRET_RISK: 60
+  TRIGGER_RISK: 25
+  ENGINEERING_QUALITY_RISK: 30
+deduplication:
+  confidence_floor: 0.35
+  repeated_root_multiplier: 0.25
+
